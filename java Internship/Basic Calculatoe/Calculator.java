@@ -16,23 +16,27 @@ public class Calculator {
                 int Operation = scanner.nextInt();
                 System.out.println("Enter the Second  Number");
                 int inputSecondNumber = scanner.nextInt();
-
+                int result;
                 switch (Operation) {
                     case 1:
-                        System.out.println("Result is :" + inputFirstNumber + inputSecondNumber);
+                        result = inputFirstNumber + inputSecondNumber;
+                        System.out.println("Result is :" + result);
+                        ;
                         break;
 
                     case 2:
-                        int result = inputFirstNumber - inputSecondNumber;
+                        result = inputFirstNumber - inputSecondNumber;
                         System.out.println("Result is :" + result);
 
                         break;
                     case 3:
-                        System.out.println("Result is :" + inputFirstNumber * inputSecondNumber);
+                        result = inputFirstNumber * inputSecondNumber;
+                        System.out.println("Result is :" + result);
 
                         break;
                     case 4:
-                        System.out.println("Result is :" + inputFirstNumber / inputSecondNumber);
+                        result = inputFirstNumber / inputSecondNumber;
+                        System.out.println("Result is :" + result);
 
                         break;
                 }
